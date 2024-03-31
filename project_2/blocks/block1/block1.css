@@ -1,0 +1,75 @@
+.block1 {
+  background: linear-gradient(to right, #fff 60%, #272727 0%);
+  padding-right: 11%;
+  padding-left: 11%;
+  padding-top: 5vh;
+}
+.block1_navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3vw;
+}
+.block1_navigation_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10vw;
+}
+.block1_navigation_menu_first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1vw;
+}
+.block1_present {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 35vh;
+}
+.block1_present_text {
+  width: 60%;
+  position: absolute;
+}
+.block1_present_text_main {
+  font-size: 3em;
+}
+.block1_present_text_second {
+  font-size: 0.9em;
+  font-style: italic;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 5vh;
+}
+.block1_present_text_second_hr-line {
+  width: 20%;
+  border-top: 0.3vh solid #272727;
+  margin-right: 5%;
+  margin-left: 20%;
+}
+.block1_present_ring {
+  position: absolute;
+  left: 50%;
+}
+.block1_information {
+  padding-left: 80%;
+  margin-top: 30vh;
+  text-align: right;
+  padding-bottom: 5vh;
+}
+.block1_information_name {
+  color: #fff;
+  font-size: 1em;
+  margin-bottom: 1.5vh;
+}
+.block1_information_material {
+  color: #C2C2C2;
+  font-size: 0.7em;
+  margin-bottom: 1.5vh;
+}
+.block1_information_price {
+  color: #EFC58B;
+  font-size: 1em;
+}/*# sourceMappingURL=block1.css.map */
