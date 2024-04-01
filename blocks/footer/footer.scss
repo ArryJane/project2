@@ -1,0 +1,62 @@
+.footer{
+    background-color: #272727;
+    padding-left: 11%;
+    padding-right: 11%;
+    margin-top: 3vh;
+    padding-bottom: 10vh;
+    color: #fff;
+    font-size: 0.8em;
+    
+
+    &_navigation{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10vh;
+        padding-bottom: 5vh;  
+    }
+
+    &_contact{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &_social{
+
+            &_text{
+                margin-top: 7vh;
+                margin-bottom: 1vh;
+            }
+
+            &_tel{
+                margin-bottom: 1vh;
+                color: #C2C2C2;
+            }
+        }
+
+        &_news{
+
+            &_text{
+                margin-bottom: 1vh;
+            }
+
+            &_form{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                &_email{
+                    color: #C2C2C2;
+                    font-size: 1.3em;
+                }
+            }
+
+            &_line{
+                margin-top: 1vh;
+                width: 100%;
+                border-top: 0.01vh solid #fff;
+            }
+        }
+    }
+
+
+}
